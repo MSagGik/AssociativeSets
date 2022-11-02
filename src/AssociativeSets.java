@@ -33,16 +33,15 @@ public class AssociativeSets {
         difference.removeAll(popularCitiesAndCountriesDC);
         System.out.println("Set subtraction = " + difference);
 
-        String cityName = "Latveria";
-        if(popularCitiesAndCountriesMarvel.contains(cityName))
-            System.out.println(cityName + " is in the popular cities set."); // true
+        String сountriesName = "Latveria";
+        if(popularCitiesAndCountriesMarvel.contains(сountriesName))
+            System.out.println(сountriesName + " is in the popular cities set."); // true
         else
-            System.out.println(cityName + " is not in the popular cities set.");
+            System.out.println(сountriesName + " is not in the popular cities set.");
         popularCitiesAndCountriesMarvel.remove("Latveria");
-        if(popularCitiesAndCountriesMarvel.contains(cityName))
-            System.out.println(cityName + " is in the popular cities set."); // false
+        if(popularCitiesAndCountriesMarvel.contains(сountriesName))
+            System.out.println(сountriesName + " is in the popular cities set."); // false
         else
-            System.out.println(cityName + " is not in the popular cities set.");
+            System.out.println(сountriesName + " is not in the popular cities set.");
     }
 }
-
